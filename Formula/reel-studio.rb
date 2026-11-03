@@ -1,9 +1,10 @@
-# Reel Studio. Source of truth: packaging/homebrew/reel-studio.rb in murathany7/reel-studio (update with packaging/update-formula.sh).
+# Homebrew formula for the murathany7/homebrew-reel-studio tap. Installs the npm package with its own Node.
+# After `npm publish`, run packaging/update-formula.sh to set url and sha256, then copy this file to the tap's Formula/.
 class ReelStudio < Formula
   desc "Make marketing reels, ads and posts with code, for any brand, with Claude Code"
   homepage "https://github.com/murathany7/reel-studio"
-  url "https://registry.npmjs.org/reel-studio/-/reel-studio-0.2.0.tgz"
-  sha256 "73dc3a5cc592821fafcb87a57089ac6eb1c6f4d21a720db3c01bf55009b2136e"
+  url "https://registry.npmjs.org/reel-studio/-/reel-studio-0.2.1.tgz"
+  sha256 "e6f9830c03ba5745af729feb50a97376079db8071dcf5bb4f978201d97e9f2fd"
   license "MIT"
 
   depends_on "ffmpeg"
